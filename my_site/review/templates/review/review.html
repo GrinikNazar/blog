@@ -19,5 +19,19 @@
     {% endfor %}
     <button type="submit">Send</button>
 </form>
+
+<div>
+    <h3 class="show">From DB</h3>
+    <div class="items">
+        {% for d in data %}
+            <div class="item">
+                <p>Користувач: {{ d.user_name }}</p>
+                <p>Відгук:</p>
+                <p>{{ d.review_text }}</p>
+                <p>Рейтинг: {{ d.rating }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
 </body>
 </html>

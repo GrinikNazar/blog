@@ -68,3 +68,18 @@ button:active {
 .errors label {
   color: #680000;
 }
+
+.show {
+    text-align: center;
+}
+
+.items {
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid #000;
+    padding: 30px;
+}
+
+.item {
+    border-bottom: 1px solid #000;
+}
